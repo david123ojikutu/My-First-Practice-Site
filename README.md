@@ -40,3 +40,11 @@ For the second fieldset, I added another text input and a number input, each wit
 Then, my next fieldset included radio elements, simply yes and no. Then, I added two &lt;button>&lt;/button> elements, one a submit button and the other a reset button. For the reset button, the text has a &lt;strong>&lt;/strong> element, as it was a warning that pressing it would reset all the information on the form.
 
 Then, I added another section that was solely for the purpose of adding a &lt;table>&lt;/table> element. I must confess, this was the hardest out of everything I had done so far. It was taxing remembering everything, and I had to frequently switch between the HTML file and the preview to know how it was rendered across the screen.
+
+The &lt;table id="" border="" style=""&gt;&lt;/table&gt; element had an id, border, and style attributes. Then, a &lt;caption>&lt;/caption> element. And then we come to the table itself. The table was set into three categories: &lt;thead>&lt;/thead>, &lt;tbody>&lt;/tbody>, and &lt;tfoot>&lt;/tfoot> elements, representing a table head, table body, and table footer, respectively.
+
+The table head had two rows using &lt;tr>&lt;/tr> and &lt;th>&lt;/th> elements, with one of the sets of rows being a submetric in the &lt;thead>&lt;/thead> element. Most of the &lt;th>&lt;/th> elements had rowspan, scope, and style attributes, with the scope set to "col".
+
+Then we go to the &lt;tbody>&lt;/tbody> element, where we get most of the information in our table. We have a series of table row elements, &lt;tr>&lt;/tr>, with &lt;th>&lt;/th> and &lt;td>&lt;/td> elements, with the &lt;th>&lt;/th> having a scope attribute set to "row".
+
+Then, the table footer element, &lt;tfoot>&lt;/tfoot>, with a table row, &lt;tr>&lt;/tr>, table header, &lt;th>&lt;/th>, and &lt;td>&lt;/td>. The &lt;th>&gt; and first &lt;td>&lt;/td> had a colspan of 2, meaning these elements spanned two columns. With that, the table was finished.
