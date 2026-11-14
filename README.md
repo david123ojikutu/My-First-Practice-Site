@@ -1,4 +1,4 @@
-# My-First-Practice-Site
+# My First Practice Site
 This is just a practice site for me to practice what I'm learning in HTML, CSS, and JavaScript. For this exercise, I've decided to create "Art Hub", a fictional online space for people to discover, share, and interact with the artwork of their favorite artists. Due to some studying of basic concepts in HTML, I have an idea of all the things a website can and should have. So I also created a <a href="Things for Code.md">Markdown document</a> that lists every HTML element and attribute I've learnt so far, as a way of gauging myself on how well I understand the content of my learning. As I use each element (or attribute), I'll bold it. The goal is to use every item mentioned in the document in a manner that's coherent and appropriate for the kind of website I'm creating. Without further ado, welcome to <a href="https://david123ojikutu.github.io/My-Second-Practice-Site/">Art Hub</a>.
 
 Also, this has a <a href="DEVELOPMENT.md">DEVELOPMENT.md page</a> where you can see its development.
